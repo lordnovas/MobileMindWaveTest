@@ -97,7 +97,7 @@ public class MindActivity extends ActionBarActivity {
                      Log.d("Hello EEG ", "Low Beta " + ep.lowBeta);
                      Log.d("Hello EEG ", "High Beta " + ep.highBeta);
                      Log.d("Hello EEG ", "Low Gamma " + ep.lowGamma);
-                     Log.d("Hello EEG ", "Mid Gamma " + ep.midGamma);
+                     Log.d("Hello EEG ", "Mid Gamma " + ep.midGamma + 1);
                     default:
                         break;
             }
