@@ -68,7 +68,7 @@ public class MindActivity extends ActionBarActivity {
                             mTGDevice.close();
                             break;
                         case TGDevice.STATE_NOT_FOUND:
-                        case TGDevice.STATE_NOT_PAIRED:
+                        case TGDevice.STATE_NOT_PAIRED://test paired
                             default:
                                 break;
                     }
